@@ -1,0 +1,42 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750" role="img" aria-labelledby="b3Title">
+  <title id="b3Title">Bukit Sari 250 g coffee bag</title>
+  <defs>
+    <linearGradient id="bag3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2C211A"/>
+      <stop offset="0.35" stop-color="#241A13"/>
+      <stop offset="1" stop-color="#1B130E"/>
+    </linearGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="750" fill="#EFE4D0"/>
+  <circle cx="300" cy="360" r="238" fill="#E8DCC3" opacity="0.8"/>
+  <ellipse cx="300" cy="700" rx="168" ry="20" fill="#7A5A3E" opacity="0.13"/>
+
+  <path d="M150 158a18 18 0 0 1 18-18h264a18 18 0 0 1 18 18v484a24 24 0 0 1-24 24H174a24 24 0 0 1-24-24Z" fill="url(#bag3)"/>
+  <path d="M150 158a18 18 0 0 1 18-18h264a18 18 0 0 1 18 18v38H150Z" fill="#C08A2E"/>
+  <line x1="150" y1="196" x2="450" y2="196" stroke="#EFE4D0" stroke-opacity="0.4" stroke-width="2"/>
+  <rect x="232" y="118" width="136" height="26" rx="13" fill="#3A2C22"/>
+  <circle cx="424" cy="330" r="11" fill="#3A2C22"/>
+
+  <rect x="188" y="252" width="224" height="252" fill="#F6EFE3"/>
+  <g fill="none" stroke="#C08A2E" stroke-width="7" stroke-linecap="round">
+    <path d="M200 316c26-22 52 22 78 0s52 22 78 0"/>
+    <path d="M200 360c26-22 52 22 78 0s52 22 78 0"/>
+    <path d="M200 404c26-22 52 22 78 0s52 22 78 0"/>
+  </g>
+
+  <line x1="216" y1="452" x2="384" y2="452" stroke="#211913" stroke-opacity="0.22" stroke-width="1.5"/>
+  <g fill="#211913" opacity="0.55">
+    <circle cx="284" cy="472" r="3.5"/>
+    <circle cx="300" cy="472" r="3.5"/>
+    <circle cx="316" cy="472" r="3.5"/>
+  </g>
+
+  <rect x="150" y="600" width="300" height="12" fill="#C08A2E" opacity="0.9"/>
+
+  <rect width="600" height="750" filter="url(#grain)" opacity="0.05" style="mix-blend-mode:multiply"/>
+</svg>

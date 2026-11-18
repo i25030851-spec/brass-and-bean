@@ -1,0 +1,125 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-labelledby="roomTitle roomDesc">
+  <title id="roomTitle">The quiet room at Brass &amp; Bean</title>
+  <desc id="roomDesc">Original vector illustration of the cafe interior: an arched window, a timber table with two cups, a shelf of retail bags, a pendant lamp and a potted plant.</desc>
+
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EFE3CE"/>
+      <stop offset="1" stop-color="#E3D5BB"/>
+    </linearGradient>
+    <linearGradient id="pane" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF9EC"/>
+      <stop offset="1" stop-color="#F2E0BC"/>
+    </linearGradient>
+    <radialGradient id="lampGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F9E2B4" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#F9E2B4" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#wall)"/>
+  <rect y="706" width="1200" height="194" fill="#D6C3A4"/>
+  <line x1="0" y1="706" x2="1200" y2="706" stroke="#CDBBA0" stroke-width="2"/>
+
+  <!-- arched window -->
+  <path d="M100 706V404a200 200 0 0 1 400 0v302Z" fill="#FBF6EC"/>
+  <path d="M126 706V408a174 174 0 0 1 348 0v298Z" fill="url(#pane)"/>
+  <path d="M126 560h50l26-34 26 34h64l30-42 30 42h94v146H126Z" fill="#DDCBA9" opacity="0.8"/>
+  <line x1="300" y1="230" x2="300" y2="706" stroke="#FBF6EC" stroke-width="11"/>
+  <line x1="126" y1="486" x2="474" y2="486" stroke="#FBF6EC" stroke-width="11"/>
+  <line x1="126" y1="600" x2="474" y2="600" stroke="#FBF6EC" stroke-width="6"/>
+
+  <!-- pendant lamp -->
+  <line x1="626" y1="0" x2="626" y2="214" stroke="#6B5A48" stroke-width="3"/>
+  <circle cx="626" cy="296" r="118" fill="url(#lampGlow)"/>
+  <path d="M566 246h120l-27 80h-66Z" fill="#C08A2E"/>
+  <path d="M566 246h120" stroke="#A87A23" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="626" cy="342" r="16" fill="#F9E2B4"/>
+
+  <!-- retail shelf -->
+  <rect x="724" y="430" width="396" height="16" rx="4" fill="#7A5A3E"/>
+  <rect x="772" y="446" width="14" height="34" fill="#6B4C33"/>
+  <rect x="1058" y="446" width="14" height="34" fill="#6B4C33"/>
+  <g>
+    <rect x="752" y="332" width="66" height="98" rx="8" fill="#241A13"/>
+    <rect x="752" y="332" width="66" height="14" fill="#A8502A"/>
+    <rect x="770" y="374" width="30" height="30" fill="#F6EFE3"/>
+    <rect x="850" y="332" width="66" height="98" rx="8" fill="#241A13"/>
+    <rect x="850" y="332" width="66" height="14" fill="#4C6353"/>
+    <rect x="868" y="374" width="30" height="30" fill="#F6EFE3"/>
+    <rect x="948" y="332" width="66" height="98" rx="8" fill="#241A13"/>
+    <rect x="948" y="332" width="66" height="14" fill="#C08A2E"/>
+    <rect x="966" y="374" width="30" height="30" fill="#F6EFE3"/>
+  </g>
+  <g>
+    <rect x="1046" y="400" width="56" height="30" rx="6" fill="#FBF6EC"/>
+    <rect x="1052" y="372" width="44" height="28" rx="6" fill="#F3E8D6"/>
+  </g>
+
+  <!-- table -->
+  <ellipse cx="628" cy="716" rx="286" ry="20" fill="#211913" opacity="0.09"/>
+  <rect x="378" y="596" width="500" height="24" rx="12" fill="#26362C"/>
+  <rect x="422" y="620" width="22" height="86" fill="#26362C"/>
+  <rect x="812" y="620" width="22" height="86" fill="#26362C"/>
+  <rect x="422" y="658" width="412" height="11" rx="5" fill="#26362C" opacity="0.7"/>
+
+  <!-- cups on the table -->
+  <g transform="translate(26,0)">
+    <ellipse cx="486" cy="600" rx="62" ry="12" fill="#FBF6EC"/>
+    <path d="M448 540h76l-8 42c-2 8-9 13-17 13h-26c-8 0-15-5-17-13Z" fill="#FBF6EC"/>
+    <path d="M520 548c24 2 26 30 3 36" fill="none" stroke="#FBF6EC" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="486" cy="540" rx="38" ry="8" fill="#E4D4B8"/>
+    <ellipse cx="486" cy="541" rx="31" ry="5" fill="#3F2718"/>
+    <g fill="none" stroke="#FBF6EC" stroke-linecap="round" stroke-width="4.5" opacity="0.8">
+      <path d="M470 518c-9-15 8-22 0-37"/>
+      <path d="M502 518c-9-15 8-22 0-37"/>
+    </g>
+  </g>
+  <g transform="translate(26,0)">
+    <ellipse cx="616" cy="600" rx="52" ry="11" fill="#FBF6EC"/>
+    <path d="M582 552h68l-7 36c-2 7-8 12-15 12h-24c-7 0-13-5-15-12Z" fill="#EFE3CE"/>
+    <ellipse cx="616" cy="552" rx="34" ry="7" fill="#E4D4B8"/>
+    <ellipse cx="616" cy="553" rx="27" ry="4.5" fill="#3F2718"/>
+  </g>
+
+  <!-- sprig in a small bottle -->
+  <g>
+    <rect x="712" y="518" width="28" height="80" rx="13" fill="#8FA394" opacity="0.85"/>
+    <path d="M726 520c-4-44 8-74 28-94" fill="none" stroke="#3E5A48" stroke-width="4" stroke-linecap="round"/>
+    <g fill="#3E5A48">
+      <ellipse cx="728" cy="482" rx="21" ry="9" transform="rotate(-38 728 482)"/>
+      <ellipse cx="751" cy="452" rx="20" ry="8.5" transform="rotate(-58 751 452)"/>
+      <ellipse cx="742" cy="510" rx="19" ry="8" transform="rotate(28 742 510)"/>
+    </g>
+  </g>
+
+  <!-- stools -->
+  <g fill="#7A5A3E">
+    <rect x="228" y="676" width="152" height="18" rx="9"/>
+    <rect x="238" y="694" width="13" height="86"/>
+    <rect x="357" y="694" width="13" height="86"/>
+    <rect x="892" y="676" width="152" height="18" rx="9"/>
+    <rect x="902" y="694" width="13" height="86"/>
+    <rect x="1021" y="694" width="13" height="86"/>
+  </g>
+
+  <!-- potted plant -->
+  <g>
+    <ellipse cx="1082" cy="864" rx="76" ry="12" fill="#211913" opacity="0.1"/>
+    <path d="M1034 800h96l-13 82h-70Z" fill="#A8502A"/>
+    <rect x="1028" y="786" width="108" height="18" rx="9" fill="#94461F"/>
+    <path d="M1082 786c-2-68-12-96-34-120" fill="none" stroke="#3E5A48" stroke-width="5" stroke-linecap="round"/>
+    <g fill="#3E5A48">
+      <ellipse cx="1046" cy="700" rx="30" ry="13" transform="rotate(-30 1046 700)"/>
+      <ellipse cx="1100" cy="664" rx="32" ry="14" transform="rotate(22 1100 664)"/>
+      <ellipse cx="1084" cy="742" rx="26" ry="11" transform="rotate(-12 1084 742)"/>
+      <ellipse cx="1116" cy="714" rx="24" ry="10" transform="rotate(40 1116 714)"/>
+    </g>
+  </g>
+
+  <rect width="1200" height="900" filter="url(#grain)" opacity="0.055" style="mix-blend-mode:multiply"/>
+</svg>

@@ -1,0 +1,77 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">A cream coffee cup with rising steam, framed by a deep green archway</title>
+  <desc id="heroDesc">Original vector illustration for Brass &amp; Bean: a steaming cup on a brass-lined counter inside a shophouse arch, with roasted beans scattered on the counter.</desc>
+
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F0DEC0"/>
+      <stop offset="1" stop-color="#E9D4B2"/>
+    </linearGradient>
+    <linearGradient id="cupShade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFDF8"/>
+      <stop offset="0.58" stop-color="#FBF6EC"/>
+      <stop offset="1" stop-color="#E6D8C0"/>
+    </linearGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#wall)"/>
+
+  <!-- wide composition ring, sitting behind the arch -->
+  <circle cx="400" cy="432" r="366" fill="none" stroke="#C08A2E" stroke-opacity="0.55" stroke-width="2"/>
+  <circle cx="400" cy="432" r="336" fill="none" stroke="#C08A2E" stroke-opacity="0.28" stroke-width="1"/>
+
+  <!-- archway -->
+  <path d="M150 900V430a250 250 0 0 1 500 0v470Z" fill="#26362C"/>
+  <path d="M178 900V436a222 222 0 0 1 444 0v464" fill="none" stroke="#48604F" stroke-width="1.5"/>
+
+  <!-- brass pendant lamp inside the arch -->
+  <line x1="400" y1="196" x2="400" y2="268" stroke="#C08A2E" stroke-width="3"/>
+  <circle cx="400" cy="352" r="96" fill="#C08A2E"/>
+  <circle cx="400" cy="352" r="96" fill="none" stroke="#D9A94E" stroke-width="2"/>
+  <circle cx="400" cy="352" r="118" fill="none" stroke="#D9A94E" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- steam -->
+  <g fill="none" stroke="#FDF7EC" stroke-linecap="round" stroke-width="12" opacity="0.72">
+    <path d="M352 772c-22-40 20-62 0-102s18-62 0-102"/>
+    <path d="M400 764c-24-44 22-68 0-112s20-68 0-112"/>
+    <path d="M448 772c-22-40 20-62 0-102s18-62 0-102"/>
+  </g>
+
+  <!-- cup -->
+  <path d="M272 782h256l-18 82c-5 17-19 26-36 26H326c-17 0-31-9-36-26Z" fill="url(#cupShade)"/>
+  <path d="M526 804c42 3 46 56 4 64" fill="none" stroke="#F3E8D6" stroke-width="17" stroke-linecap="round"/>
+  <path d="M526 804c42 3 46 56 4 64" fill="none" stroke="#D6C3A6" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+  <ellipse cx="400" cy="782" rx="128" ry="19" fill="#EBDFC9"/>
+  <ellipse cx="400" cy="783" rx="113" ry="13" fill="#3F2718"/>
+  <ellipse cx="356" cy="781" rx="34" ry="5" fill="#6B4A32" opacity="0.8"/>
+
+  <!-- counter -->
+  <rect y="884" width="800" height="116" fill="#1B2821"/>
+  <line x1="0" y1="884" x2="800" y2="884" stroke="#C08A2E" stroke-width="3"/>
+  <ellipse cx="400" cy="884" rx="196" ry="30" fill="#FBF6EC"/>
+  <ellipse cx="400" cy="878" rx="196" ry="28" fill="#EFE3CE"/>
+  <ellipse cx="400" cy="878" rx="150" ry="18" fill="#E2D2B6"/>
+
+  <!-- beans -->
+  <g fill="#A8502A">
+    <g transform="translate(212 946) rotate(-26)">
+      <ellipse rx="31" ry="21"/>
+      <path d="M-28 1c12-11 31-11 56 0" fill="none" stroke="#F3EADB" stroke-width="3.5" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(590 960) rotate(18)">
+      <ellipse rx="31" ry="21"/>
+      <path d="M-28 1c12-11 31-11 56 0" fill="none" stroke="#F3EADB" stroke-width="3.5" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(500 930) rotate(-8)">
+      <ellipse rx="25" ry="17"/>
+      <path d="M-22 1c10-9 25-9 44 0" fill="none" stroke="#F3EADB" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <rect x="0.75" y="0.75" width="798.5" height="998.5" fill="none" stroke="#211913" stroke-opacity="0.12" stroke-width="1.5"/>
+  <rect width="800" height="1000" filter="url(#grain)" opacity="0.055" style="mix-blend-mode:multiply"/>
+</svg>
